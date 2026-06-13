@@ -1,0 +1,12 @@
+.imgbobr img{
+    height:  400px;
+    width: 500px;
+    padding-top: 100px;
+    padding-right: 200px;
+    
+}
+.main-1-text{
+    padding-left: 150px;
+    padding-top: 100px;
+    padding-right: 300px;
+}
