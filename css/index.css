@@ -65,4 +65,29 @@ nav {
     margin: 100px 300px 0 50px;
 }
 
+.hero-section{
+    background-color: #063f47;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        
+}
 
+.hero-section img{
+    width: 300px;
+    height: 300px;
+    border: 5px solid aquamarine;
+    border-radius: 10px;
+    margin: 50px 100px 30px 100px;
+}
+
+.hero-texts{
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0 100px 30px 100px;
+    color: #fdfbed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-texts p {
+    margin-top: 5px;
+}
