@@ -68,9 +68,10 @@ nav {
 .hero-section{
     background-color: #063f47;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-        
+    padding: 50px;
+    gap: 120px;
 }
 
 .hero-section img{
@@ -78,16 +79,85 @@ nav {
     height: 300px;
     border: 5px solid aquamarine;
     border-radius: 10px;
-    margin: 50px 100px 30px 100px;
+    
 }
 
 .hero-texts{
     max-width: 300px;
-    max-height: 300px;
-    margin: 0 100px 30px 100px;
     color: #fdfbed;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 .hero-texts p {
     margin-top: 5px;
+}
+
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 600px;
+    padding: 100px;
+    background-color: #fff6e9;
+}
+.quote-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: large;
+    width: 400px;
+}
+
+.author{
+    margin-top: 5px;
+}
+.sign-up-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+.sign-up-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 150px;
+    background-color: #0a171D;
+    border-radius: 15px;
+    gap: 300px;
+}
+.sign-up-text h1{
+    color: #fff6e9;
+    font-size: 20px;
+}
+
+.sign-up-text p {
+    color: #fff6e9;
+    font-size: 12px;
+}
+.sign-up-button{
+    border: 2px solid #fff6e9;
+    border-radius: 12px;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffbd76;
+}
+.sign-up-button p{
+    color: #000000;
+}
+
+footer{
+    background-color: #193497;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container  p {
+    color: #fff6e9;
 }
